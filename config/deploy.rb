@@ -1,3 +1,5 @@
+require "bundler/capistrano" # runs bundle:install automatically
+
 set :application, "mojito"
 
 set :scm, :git
